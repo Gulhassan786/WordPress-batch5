@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    display: grid;
+    background-color: rgb(90, 88, 88);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    color: white;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 500px;
+    gap: 3px;
+}
+
+.box{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+
+}
+
+.box:hover{
+    background-color: #999;
+    background-position: top;
+
+}
+
+#gh{
+    grid-row:span 2;
+}
+
+#imag2{
+    /* grid-column: span 2; */
+}
